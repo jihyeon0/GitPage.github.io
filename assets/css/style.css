@@ -58,6 +58,10 @@
   color: #0077b5;
 }
 
+.youtube {
+  color: #ff0000;
+}
+
 .angellist {
   color: grey;
 }
@@ -69,6 +73,10 @@
 
 .linkedin:hover {
   background-color: #0077b5;
+}
+
+.youtube:hover {
+  background-color: #ff0000;
 }
 
 .angellist:hover {
@@ -473,7 +481,7 @@ a.hoverline {
 } */
 
 a.hoverline:hover {
-  border-bottom: 3px solid #004d40 !important;
+  border-bottom: 3px solid #0097a7 !important;
 }
 
 #skills .card.large {
@@ -549,7 +557,7 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  color: #0097a7 !important;
 }
 
 /* .teal-text {
@@ -559,7 +567,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #0097a7 !important;
 }
 
 /* .teal {
