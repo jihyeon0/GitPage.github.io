@@ -433,6 +433,10 @@ h3 {
 
 #experience .card .col.s12.m2 a img {
   max-height: 60px;
+  max-width: 60px;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
 }
 
 .card-action span {
