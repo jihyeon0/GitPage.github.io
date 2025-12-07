@@ -336,12 +336,25 @@ h3 {
   position: relative;
 } */
 
-#intro .image-item {
-  width: 120px;       
+#intro-content-image {
+  display: flex;
+  gap: 12px;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#intro-content-image .image-item {
+  width: 120px;
   height: 120px;
-  margin: 20px 0;     
   overflow: hidden;
   border-radius: 8px;
+}
+
+#intro-content-image .image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 #intro.section {
@@ -380,11 +393,6 @@ h3 {
   padding: 0 10px;
 }
 
-#intro .image-item img.life-pic {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;  
-}
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.4);
