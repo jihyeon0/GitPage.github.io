@@ -337,9 +337,10 @@ h3 {
 } */
 
 #intro .image-item {
-    height: 180px; 
-    overflow: hidden;
-    padding: 5px; 
+  max-height: 30px;
+  max-width: 30px;
+  overflow: hidden;
+  padding: 5px; 
 }
 
 #intro.section {
