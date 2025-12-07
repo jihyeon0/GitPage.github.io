@@ -336,6 +336,12 @@ h3 {
   position: relative;
 } */
 
+#intro .image-item {
+    height: 180px; 
+    overflow: hidden;
+    padding: 5px; 
+}
+
 #intro.section {
   background: #a7ffeb repeat;
   position: relative;
@@ -370,6 +376,14 @@ h3 {
 
 #intro.section .teal {
   padding: 0 10px;
+}
+
+.life-pic {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .overlay {
